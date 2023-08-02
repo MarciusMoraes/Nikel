@@ -5,7 +5,8 @@ const session= localStorage.getItem("session");
 
 checkLogged();
 
-//Logar no sistema
+
+//Log in a account
 document.getElementById("login-form").addEventListener("submit", function(e){
     e.preventDefault();
 
@@ -33,7 +34,7 @@ document.getElementById("login-form").addEventListener("submit", function(e){
 })
 
 
-//Criar Conta
+//Create Account
 document.getElementById("create-form").addEventListener("submit", function(e){
     e.preventDefault();
 
@@ -59,6 +60,7 @@ document.getElementById("create-form").addEventListener("submit", function(e){
     myModal.hide();
     alert("Conta criada com sucesso");
 });
+
 
 function checkLogged(){
     if(session){

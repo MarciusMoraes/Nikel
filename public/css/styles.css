@@ -12,6 +12,7 @@
     font-weight: 500;
 }
 
+
 .coins{
     position: absolute;
     bottom: 100px;
@@ -32,6 +33,7 @@
     cursor: pointer;
 }
 
+
 .link-default:hover{
     color: #4c79d3;
 }
@@ -42,13 +44,16 @@
     background: #4c79d3 !important;
 }
 
+
 .button-cancel{
     border-radius: 10px;
 }
 
+
 #app{
     background:linear-gradient(120deg, #ffffff 44.9%, #4c79d3 45%) no-repeat fixed;
 }
+
 
 header{
     border-bottom: 1px solid #bebcbc;
@@ -61,9 +66,11 @@ header{
     color: #4e0070;
 }
 
+
 .color-secondary{
     color: #4c79d3;
 }
+
 
 .icon-detail{
     font-size: 50px;
@@ -71,17 +78,20 @@ header{
     vertical-align: middle;
 }
 
+
 .info{
     background-color: #ffffff;
     border-radius: 20px 20px 0px 0px;
     padding: 20px 0px 0px 0px;
 }
 
+
 .button-default{
     border-radius: 10px;
     background-color: #4e0070 !important;
     color: #ffffff !important;
 }
+
 
 .float-button{
     border-radius: 100%;
@@ -97,15 +107,18 @@ header{
     border: 2px solid #4e0070;
 }
 
+
 .float-button:hover{
     border: 2px solid #4c79d3 !important;
     background-color: #ffffff !important;
     color: #4c79d3 !important;
 }
 
+
 .logout{
     min-width: 5rem !important;
 }
+
 
 .menu{
     margin-right: 20px !important;

@@ -1,14 +1,15 @@
 const myModal= new bootstrap.Modal("#transaction-modal");
 let logged= sessionStorage.getItem("logged");
 const session= localStorage.getItem("session");
-
 let data= {
     transactions: []
 };
 
+//Event that calls the logout function
 document.getElementById("button-logout").addEventListener("click", logout);
 
 
+//Event that add a value
 document.getElementById("transaction-form").addEventListener("submit", function(e){
     e.preventDefault();
 
@@ -32,6 +33,7 @@ document.getElementById("transaction-form").addEventListener("submit", function(
 
 
 checkLogged();
+
 
 function checkLogged(){
     if(session){

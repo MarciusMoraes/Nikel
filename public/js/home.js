@@ -1,13 +1,14 @@
 const myModal= new bootstrap.Modal("#transaction-modal");
 let logged= sessionStorage.getItem("logged");
 const session= localStorage.getItem("session");
-
 let data= {
     transactions: []
 };
 
 
 document.getElementById("button-logout").addEventListener("click", logout);
+
+
 document.getElementById("transactions-button").addEventListener("click", function(){
     window.location.href= "transactions.html";
 } );
@@ -59,12 +60,6 @@ function checkLogged(){
     getTotal();
 }
 
-function logout(){
-    sessionStorage.removeItem("logged");
-    localStorage.removeItem("session");
-
-    window.location.href="index.html";
-}
 
 function getCashIn(){
     const transactions= data.transactions;
@@ -105,6 +100,7 @@ function getCashIn(){
         
     }
 }
+
 
 function getCashOut(){
     const transactions= data.transactions;
@@ -162,8 +158,17 @@ function getTotal(){
     document.getElementById("total").innerHTML= `R$ ${total.toFixed(2)}`;
 }
 
+
 function saveData(data){
     localStorage.setItem(data.login, JSON.stringify(data))
+}
+
+
+function logout(){
+    sessionStorage.removeItem("logged");
+    localStorage.removeItem("session");
+
+    window.location.href="index.html";
 }
 
 
