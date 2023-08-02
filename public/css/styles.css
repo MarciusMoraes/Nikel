@@ -1,9 +1,10 @@
 
-/*Index page CSS*/
+/*CSS used only in index:*/
 
 #login{
     background:linear-gradient(120deg, #4c79d3 44.9%, #ffffff 45%) no-repeat fixed;
 }
+
 
 .text-login{
     color: #ffffff;
@@ -11,11 +12,11 @@
     font-weight: 500;
 }
 
-
 .coins{
     position: absolute;
     bottom: 100px;
 }
+
 
 .button-login{
     background-color: #4e0070 !important;
@@ -25,13 +26,6 @@
     margin: 0 25%;
 }
 
-.button-login:hover, .button-default:hover{
-    background: #4c79d3 !important;
-}
-
-.button-cancel{
-    border-radius: 10px;
-}
 
 .link-default {
     color: #4e0070;
@@ -42,7 +36,15 @@
     color: #4c79d3;
 }
 
-/*Home page CSS*/
+/*CSS used only in more than one HTML:*/
+
+.button-login:hover, .button-default:hover{
+    background: #4c79d3 !important;
+}
+
+.button-cancel{
+    border-radius: 10px;
+}
 
 #app{
     background:linear-gradient(120deg, #ffffff 44.9%, #4c79d3 45%) no-repeat fixed;
@@ -54,6 +56,7 @@ header{
     background-color: #ffffff;
 }
 
+
 .color-primary{
     color: #4e0070;
 }
@@ -62,13 +65,11 @@ header{
     color: #4c79d3;
 }
 
-
 .icon-detail{
     font-size: 50px;
     margin-right: 10px;
     vertical-align: middle;
 }
-
 
 .info{
     background-color: #ffffff;
