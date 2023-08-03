@@ -4,7 +4,7 @@ This is the final project of the [Codai](https://plataforma.growdev.com.br/curso
 
 Used Technologies:
 
-- HTML-5
+- HTML
 - Bootstrap
 - CSS
 - Javascript
